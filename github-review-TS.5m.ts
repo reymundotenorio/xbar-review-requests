@@ -91,7 +91,7 @@ class Main {
   mergeStatusColor(status: Mergeable): string {
     switch (status) {
       case 'MERGEABLE':
-        return '#28a745';
+        return '#44bf60';
       case 'CONFLICTING':
         return '#dc3545';
       case 'DRAFT':
